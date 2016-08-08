@@ -70,7 +70,7 @@ NSInteger chance8 = 3;
         if (chance8 == 3 || chance8 == 2 || chance8 == 1){
             if ( [word8  isEqual: @"KVARTIRA" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word8 = @"";
                 self.next.hidden = NO;
             }
@@ -78,7 +78,7 @@ NSInteger chance8 = 3;
             {
                 if (chance8 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 8 очков!";
                     self.next.hidden = YES;
                     chance8 = 0;
                     self.chance.text = @"0";

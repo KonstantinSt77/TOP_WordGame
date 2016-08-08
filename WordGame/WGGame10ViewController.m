@@ -51,7 +51,7 @@ NSInteger chance10 = 3;
         if (chance10 == 3 || chance10 == 2 || chance10 == 1){
             if ( [word10  isEqual: @"DUH" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты прошел все уровни!";
                 word10 = @"";
                 self.next.hidden = NO;
             }
@@ -59,7 +59,7 @@ NSInteger chance10 = 3;
             {
                 if (chance10 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 10 очков!";
                     self.next.hidden = YES;
                     chance10 = 0;
                     self.chance.text = @"0";

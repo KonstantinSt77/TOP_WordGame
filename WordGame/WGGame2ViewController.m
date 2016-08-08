@@ -69,7 +69,7 @@ NSInteger chance3 = 3;
         if (chance3 == 3 || chance3 == 2 || chance3 == 1){
             if ( [word3  isEqual: @"ISTORIK" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word3 = @"";
                 self.next.hidden = NO;
             }
@@ -77,7 +77,7 @@ NSInteger chance3 = 3;
             {
                 if (chance3 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 2 очка!";
                     self.next.hidden = YES;
                     chance3 = 0;
                     self.chance.text = @"0";

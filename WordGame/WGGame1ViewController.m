@@ -66,7 +66,7 @@ NSInteger chance2 = 3;
         if (chance2 == 3 || chance2 == 2 || chance2 == 1){
             if ( [word2  isEqual: @"REKLAMA" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word2 = @"";
                 self.next.hidden = NO;
             }
@@ -74,7 +74,7 @@ NSInteger chance2 = 3;
             {
                 if (chance2 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 1 очко!";
                     self.next.hidden = YES;
                     chance2 = 0;
                     self.chance.text = @"0";

@@ -63,7 +63,7 @@ NSInteger chance7 = 3;
         if (chance7 == 3 || chance7 == 2 || chance7 == 1){
             if ( [word7  isEqual: @"VREMY" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word7 = @"";
                 self.next.hidden = NO;
             }
@@ -71,7 +71,7 @@ NSInteger chance7 = 3;
             {
                 if (chance7 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 7 очков!";
                     self.next.hidden = YES;
                     chance7 = 0;
                     self.chance.text = @"0";

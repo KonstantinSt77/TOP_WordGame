@@ -59,7 +59,7 @@ NSInteger chance9 = 3;
         if (chance9 == 3 || chance9 == 2 || chance9 == 1){
             if ( [word9  isEqual: @"B" ]|| [word9  isEqual: @"BUKVAB" ])
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word9 = @"";
                 self.next.hidden = NO;
             }
@@ -67,7 +67,7 @@ NSInteger chance9 = 3;
             {
                 if (chance9 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 9 очков!";
                     self.next.hidden = YES;
                     chance9 = 0;
                     self.chance.text = @"0";

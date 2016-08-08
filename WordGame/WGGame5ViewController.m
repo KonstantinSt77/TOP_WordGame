@@ -63,7 +63,7 @@ NSInteger chance5 = 3;
         if (chance5 == 3 || chance5 == 2 || chance5 == 1){
             if ( [word5  isEqual: @"BLOHA" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word5 = @"";
                 self.next.hidden = NO;
             }
@@ -71,7 +71,7 @@ NSInteger chance5 = 3;
             {
                 if (chance5 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 5 очков!";
                     self.next.hidden = YES;
                     chance5 = 0;
                     self.chance.text = @"0";

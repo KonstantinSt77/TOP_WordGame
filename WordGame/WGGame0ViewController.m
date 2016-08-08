@@ -56,7 +56,7 @@ NSInteger chance = 3;
     if (chance == 3 || chance == 2 || chance == 1){
         if ( [word  isEqual: @"slon" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word = @"";
                 self.next.hidden = NO;
             }
@@ -64,7 +64,7 @@ NSInteger chance = 3;
             {
                 if (chance == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 0 очков!";
                     self.next.hidden = YES;
                     chance = 0;
                     self.chance.text = @"0";

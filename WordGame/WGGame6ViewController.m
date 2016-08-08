@@ -78,7 +78,7 @@ NSInteger chance6 = 3;
         if (chance6 == 3 || chance6 == 2 || chance6 == 1){
             if ( [word6  isEqual: @"CIPLENOK" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word6 = @"";
                 self.next.hidden = NO;
             }
@@ -86,7 +86,7 @@ NSInteger chance6 = 3;
             {
                 if (chance6 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 6 очков!";
                     self.next.hidden = YES;
                     chance6 = 0;
                     self.chance.text = @"0";

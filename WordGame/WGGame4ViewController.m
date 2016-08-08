@@ -80,7 +80,7 @@ NSInteger chance4 = 3;
         if (chance4 == 3 || chance4 == 2 || chance4 == 1){
             if ( [word4  isEqual: @"PLAGIATOR" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word4 = @"";
                 self.next.hidden = NO;
             }
@@ -88,7 +88,7 @@ NSInteger chance4 = 3;
             {
                 if (chance4 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 4 очка!";
                     self.next.hidden = YES;
                     chance4 = 0;
                     self.chance.text = @"0";

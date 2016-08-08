@@ -855,7 +855,7 @@
                                 <color key="textColor" red="0.20718687290000001" green="0.2446767853" blue="0.7217748397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ФИНАЛ!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZV-S2-Vo7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ФИНАЛ! (у Вас 10 монет)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZV-S2-Vo7">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4b5-7j-3GB"/>
@@ -1250,7 +1250,7 @@
                                 <color key="textColor" red="0.20718687290000001" green="0.2446767853" blue="0.7217748397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddu-Lh-0zU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 9 (у Вас 9 монет)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddu-Lh-0zU">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="560" id="2sh-bd-3nd"/>
@@ -1646,7 +1646,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5s-1w-wYk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 8 (у Вас 8 монет)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5s-1w-wYk">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="URn-9v-qeC"/>
@@ -1844,7 +1844,7 @@
                                 <color key="textColor" red="0.20718687290000001" green="0.2446767853" blue="0.7217748397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfU-ue-VXf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 7 (у Вас 7 монет)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfU-ue-VXf">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1M8-LH-T9y"/>
@@ -2459,7 +2459,7 @@
                                 <color key="textColor" red="0.20718687290000001" green="0.2446767853" blue="0.7217748397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdl-Ym-RA5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 3 (у Вас 3 монеты)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdl-Ym-RA5">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="IVh-SP-rrc"/>
@@ -2777,7 +2777,7 @@
                                     <segue destination="ZvA-PD-Pqj" kind="show" id="hh3-TL-cp0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqS-ts-KEB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 1 (у Вас 1 монета)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqS-ts-KEB">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="B9i-ye-lLc"/>
@@ -3083,7 +3083,7 @@
                                     <color key="titleColor" red="1" green="0.59385557860000004" blue="0.29866451510000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTU-Ms-Ota">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 2 (у Вас 2 монеты)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTU-Ms-Ota">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Ljp-0m-2JE"/>
@@ -3461,7 +3461,7 @@
                                 <color key="textColor" red="0.20718687290000001" green="0.2446767853" blue="0.7217748397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQ9-Yk-fNO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 6 (у Вас 6 монет)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQ9-Yk-fNO">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="caG-ru-ZLL"/>
@@ -3851,7 +3851,7 @@
                                 <color key="textColor" red="0.20718687290000001" green="0.2446767853" blue="0.7217748397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZH-t2-ZRV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 5 (у Вас 5 монет)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZH-t2-ZRV">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="560" id="WoJ-eA-N14"/>
@@ -4251,7 +4251,7 @@
                                 <color key="textColor" red="0.20718687290000001" green="0.2446767853" blue="0.7217748397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m8-XQ-1As">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уровень 4 (у Вас 4 монеты)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m8-XQ-1As">
                                 <rect key="frame" x="20" y="28" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="IUp-4X-TcB"/>
@@ -4365,6 +4365,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hL7-mv-aVo"/>
+        <segue reference="xHM-i2-gvR"/>
     </inferredMetricsTieBreakers>
 </document>

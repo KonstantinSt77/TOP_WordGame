@@ -63,7 +63,7 @@ NSInteger chance1 = 3;
         if (chance1 == 3 || chance1 == 2 || chance1 == 1){
             if ( [word1  isEqual: @"ALTARI" ] )
             {
-                self.answerLabel.text = @"Отлично, ты отгадал!";
+                self.answerLabel.text = @"Отлично, ты отгадал! +1";
                 word1 = @"";
                 self.next.hidden = NO;
             }
@@ -71,7 +71,7 @@ NSInteger chance1 = 3;
             {
                 if (chance1 == 1)
                 {
-                    self.answerLabel.text = @"Ты проиграл!";
+                    self.answerLabel.text = @"Ты проиграл и набрал 3 очка!";
                     self.next.hidden = YES;
                     chance1 = 0;
                     self.chance.text = @"0";

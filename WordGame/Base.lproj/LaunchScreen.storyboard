@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,53 +18,62 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WORD GAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsl-0k-vGR">
-                                <rect key="frame" x="169" y="237" width="263" height="34"/>
+                                <rect key="frame" x="169" y="183" width="263" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="263" id="WXL-XR-YQZ"/>
-                                    <constraint firstAttribute="height" constant="34" id="umG-OI-Dbc"/>
+                                    <constraint firstAttribute="height" constant="34" id="G9T-BE-54j"/>
+                                    <constraint firstAttribute="width" constant="263" id="Lvl-HE-mLv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="38"/>
                                 <color key="textColor" red="0.66851973247945717" green="0.95390467287547931" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Снимок экрана 2016-01-21 в 0.30.27" translatesAutoresizingMaskIntoConstraints="NO" id="PET-ZW-mUO">
-                                <rect key="frame" x="212" y="83" width="177" height="128"/>
+                                <rect key="frame" x="212" y="47" width="177" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="jMx-4x-qv9"/>
-                                    <constraint firstAttribute="width" constant="177" id="vjf-Oi-6ik"/>
+                                    <constraint firstAttribute="width" constant="177" id="Y2H-YH-z0u"/>
+                                    <constraint firstAttribute="height" constant="128" id="ltY-XS-oSz"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Design and development" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mok-vL-K6V">
-                                <rect key="frame" x="77" y="424" width="446" height="38"/>
+                                <rect key="frame" x="77" y="465" width="446" height="38"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="VSO-6u-4iy"/>
-                                    <constraint firstAttribute="width" constant="446" id="oaR-h8-bGi"/>
+                                    <constraint firstAttribute="height" constant="38" id="lYg-7R-Hem"/>
+                                    <constraint firstAttribute="width" constant="446" id="ykG-RM-v0S"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                 <color key="textColor" red="0.66851973249999996" green="0.95390467290000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Konstantin Stolyarenko" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2y-FW-724">
-                                <rect key="frame" x="63" y="447" width="474" height="38"/>
+                                <rect key="frame" x="63" y="488" width="474" height="38"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="474" id="ExT-ma-rwd"/>
-                                    <constraint firstAttribute="height" constant="38" id="PZD-x2-EbZ"/>
+                                    <constraint firstAttribute="width" constant="474" id="1jV-5Y-IXD"/>
+                                    <constraint firstAttribute="height" constant="38" id="LaB-v9-USE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="16"/>
                                 <color key="textColor" red="0.66851973249999996" green="0.95390467290000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bbb" translatesAutoresizingMaskIntoConstraints="NO" id="3hT-gU-Qz7">
+                                <rect key="frame" x="169" y="230" width="263" height="227"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="227" id="M9n-WS-RNk"/>
+                                    <constraint firstAttribute="width" constant="263" id="jE0-y2-a5g"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.14910044780000001" green="0.1447935508" blue="0.2050292232" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.19117173439999999" green="0.18564957139999999" blue="0.2628817873" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Mok-vL-K6V" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gt8-bR-rsi"/>
-                            <constraint firstItem="R2y-FW-724" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HlA-9i-MGp"/>
-                            <constraint firstItem="qsl-0k-vGR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Nia-7K-Sw8"/>
-                            <constraint firstItem="Mok-vL-K6V" firstAttribute="top" secondItem="qsl-0k-vGR" secondAttribute="bottom" constant="153" id="Q6K-Xh-Pw5"/>
-                            <constraint firstItem="PET-ZW-mUO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Vcg-pV-4Ik"/>
-                            <constraint firstItem="PET-ZW-mUO" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="63" id="bdW-Xl-00b"/>
-                            <constraint firstItem="qsl-0k-vGR" firstAttribute="top" secondItem="PET-ZW-mUO" secondAttribute="bottom" constant="26" id="dje-1J-C9j"/>
-                            <constraint firstItem="R2y-FW-724" firstAttribute="top" secondItem="qsl-0k-vGR" secondAttribute="bottom" constant="176" id="l5n-Rj-hji"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="R2y-FW-724" secondAttribute="bottom" constant="74" id="0hK-j0-Hjb"/>
+                            <constraint firstItem="3hT-gU-Qz7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="43.5" id="2cg-GP-kTe"/>
+                            <constraint firstItem="Mok-vL-K6V" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4hx-5k-TKD"/>
+                            <constraint firstItem="qsl-0k-vGR" firstAttribute="top" secondItem="PET-ZW-mUO" secondAttribute="bottom" constant="8" id="9pO-SY-IZR"/>
+                            <constraint firstItem="3hT-gU-Qz7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="D3r-vK-Z1p"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Mok-vL-K6V" secondAttribute="bottom" constant="97" id="OG4-NA-P7x"/>
+                            <constraint firstItem="PET-ZW-mUO" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="27" id="h9y-49-hlT"/>
+                            <constraint firstItem="R2y-FW-724" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hor-CT-W7A"/>
+                            <constraint firstItem="qsl-0k-vGR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jc2-fa-yxU"/>
+                            <constraint firstItem="PET-ZW-mUO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yaZ-pO-Im8"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -74,6 +83,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bbb" width="426" height="896"/>
         <image name="Снимок экрана 2016-01-21 в 0.30.27" width="760" height="760"/>
     </resources>
 </document>

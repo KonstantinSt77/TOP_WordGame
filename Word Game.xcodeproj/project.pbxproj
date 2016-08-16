@@ -118,9 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				8BA27C781C3B2404009EE1D1 /* WordGame */,
-				8BA27C921C3B2404009EE1D1 /* WordGameTests */,
-				8BA27C9D1C3B2404009EE1D1 /* WordGameUITests */,
-				8BA27C771C3B2404009EE1D1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +129,7 @@
 				8BA27C9A1C3B2404009EE1D1 /* Word Game.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8BA27C781C3B2404009EE1D1 /* WordGame */ = {
@@ -144,9 +142,7 @@
 				8BC60FBE1C501C4C004790C9 /* PoemGameLevel */,
 				8BC60FBF1C5026E8004790C9 /* IntricateRiddleLevel */,
 				8BA27C821C3B2404009EE1D1 /* Main.storyboard */,
-				8BA27C851C3B2404009EE1D1 /* Assets.xcassets */,
 				8BA27C871C3B2404009EE1D1 /* LaunchScreen.storyboard */,
-				8BA27C8A1C3B2404009EE1D1 /* Info.plist */,
 				8BA27C791C3B2404009EE1D1 /* Supporting Files */,
 			);
 			path = WordGame;
@@ -155,7 +151,12 @@
 		8BA27C791C3B2404009EE1D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BA27C851C3B2404009EE1D1 /* Assets.xcassets */,
+				8BA27C8A1C3B2404009EE1D1 /* Info.plist */,
 				8BA27C7A1C3B2404009EE1D1 /* main.m */,
+				8BA27C921C3B2404009EE1D1 /* WordGameTests */,
+				8BA27C9D1C3B2404009EE1D1 /* WordGameUITests */,
+				8BA27C771C3B2404009EE1D1 /* Products */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,7 +168,7 @@
 				8BA27C951C3B2404009EE1D1 /* Info.plist */,
 			);
 			path = WordGameTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		8BA27C9D1C3B2404009EE1D1 /* WordGameUITests */ = {
 			isa = PBXGroup;
@@ -176,7 +177,7 @@
 				8BA27CA01C3B2404009EE1D1 /* Info.plist */,
 			);
 			path = WordGameUITests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		8BC60FBE1C501C4C004790C9 /* PoemGameLevel */ = {
 			isa = PBXGroup;
